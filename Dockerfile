@@ -1,2 +1,2 @@
-FROM alpine:3.7
-RUN apk add --no-cache curl bind-tools tcptraceroute whois busybox-extras netcat-openbsd lynx
+FROM alpine:3.15
+RUN apk add --no-cache bash curl bind-tools tcptraceroute whois busybox-extras netcat-openbsd lynx
